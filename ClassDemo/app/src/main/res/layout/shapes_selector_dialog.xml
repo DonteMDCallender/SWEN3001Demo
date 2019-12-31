@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center|center_horizontal|center_vertical"
+    android:layout_marginTop="10dp"
+    android:id="@+id/Shape_selector_layout"
+    android:layout_marginBottom="10dp"
+    tools:context=".ui.activity.MainActivity">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginLeft="15dp">
+
+        <Space
+            android:layout_width="40dp"
+            android:layout_height="5dp" />
+
+        <FrameLayout
+            android:layout_width="40dp"
+            android:layout_height="40dp">
+
+            <ImageButton
+                android:id="@+id/square"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:background="#00FFFFFF"
+                app:srcCompat="@drawable/square" />
+        </FrameLayout>
+
+        <Space
+            android:layout_width="40dp"
+            android:layout_height="5dp" />
+
+        <FrameLayout
+            android:layout_width="40dp"
+            android:layout_height="40dp">
+
+            <ImageButton
+                android:id="@+id/rectangle"
+                android:layout_width="36dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:background="#00FFFFFF"
+                app:srcCompat="@drawable/rectangle" />
+        </FrameLayout>
+
+        <Space
+            android:layout_width="40dp"
+            android:layout_height="10dp" />
+
+        <FrameLayout
+            android:layout_width="40dp"
+            android:layout_height="40dp">
+
+            <ImageButton
+                android:id="@+id/triangle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal|center_vertical"
+                android:background="#00FFFFFF"
+                app:srcCompat="@drawable/triangle" />
+        </FrameLayout>
+
+    </TableRow>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="5dp" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginLeft="15dp"
+        android:divider="@android:drawable/dark_header">
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="5dp" />
+
+        <FrameLayout
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical">
+
+            <ImageButton
+                android:id="@+id/circle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:background="#00FFFFFF"
+                app:srcCompat="@drawable/circle" />
+        </FrameLayout>
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="5dp" />
+
+        <FrameLayout
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal|center_vertical">
+
+            <ImageButton
+                android:id="@+id/oval"
+                android:layout_width="36dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center|center_horizontal|center_vertical"
+                android:background="#00FFFFFF"
+                app:srcCompat="@drawable/oval" />
+        </FrameLayout>
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="5dp" />
+
+        <FrameLayout
+            android:layout_width="40dp"
+            android:layout_height="40dp">
+
+            <ImageButton
+                android:id="@+id/line_drawable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:background="#00FFFFFF"
+                app:srcCompat="@drawable/line" />
+
+        </FrameLayout>
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="5dp" />
+
+    </TableRow>
+</TableLayout>

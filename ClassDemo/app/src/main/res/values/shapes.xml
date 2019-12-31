@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="shapes">
+        <item>@drawable/rectangle</item>
+        <item>@drawable/triangle</item>
+        <item>@drawable/circle</item>
+        <item>@drawable/oval</item>
+        <item>@drawable/square</item>
+        <item>@drawable/line</item>
+    </array>
+
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#001EC7</color>
+    <color name="colorPrimaryDark">#6319B8</color>
+    <color name="colorAccent">#B30056</color>
+    <color name="white">#FFF</color>
+    <color name="black">#000</color>
+    <color name="darkPurple">#1C00FF</color>
+    <color name="violet">#a300ff</color>
+    <color name="purple">#90008b</color>
+    <color name="pink">#e200a5</color>
+    <color name="hotPink">#fa0589</color>
+    <color name="red">#d70035</color>
+    <color name="brightRed">#ff1f00</color>
+    <color name="orange">#ff7300</color>
+    <color name="yellow">#ffe300</color>
+    <color name="neonGreen">#b0ff00</color>
+    <color name="limeGreen">#95d700</color>
+    <color name="green">#39ff00</color>
+    <color name="forestGreen">#28b000</color>
+    <color name="pastelGreen">#00ff92</color>
+    <color name="aquamarine">#00ffe3</color>
+    <color name="skyBlue">#00b0ff</color>
+    <color name="azure">#007aff</color>
+
+    <array name="palette">
+        <item>#FFF</item>
+        <item>#000</item>
+        <item>#1C00FF</item>
+        <item>#4f01c9</item>
+        <item>#a300ff</item>
+        <item>#90008b</item>
+        <item>#e200a5</item>
+        <item>#fa0589</item>
+        <item>#d70035</item>
+        <item>#ff1f00</item>
+        <item>#ff7300</item>
+        <item>#ffe300</item>
+        <item>#b0ff00</item>
+        <item>#95d700</item>
+        <item>#39ff00</item>
+        <item>#28b000</item>
+        <item>#00ff92</item>
+        <item>#00ffe3</item>
+        <item>#00b0ff</item>
+        <item>#007aff</item>
+    </array>
+</resources>

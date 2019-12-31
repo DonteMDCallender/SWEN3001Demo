@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/settings_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".ui.activity.settings_activity">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="54dp"
+            android:layout_height="match_parent"
+            android:cropToPadding="false"
+            app:srcCompat="@drawable/ic_settings_black_24dp" />
+
+        <TextView
+            android:id="@+id/settings_header"
+            android:layout_width="175dp"
+            android:layout_height="match_parent"
+            android:editable="false"
+            android:fontFamily="sans-serif"
+            android:paddingLeft="5dp"
+            android:text="Settings"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="#000000" />
+
+    </TableRow>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="Grid Settings"
+        android:textAlignment="gravity"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/divider1"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:cropToPadding="true"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        app:srcCompat="@color/colorPrimary" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:padding="15dp"
+        android:text="Grid View"
+        android:textAlignment="gravity"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColorLink="@color/colorAccent"
+        android:textSize="20sp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/table"
+        android:layout_width="match_parent"
+        android:layout_height="128dp">
+
+        <TextView
+            android:id="@+id/columns"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginBottom="12dp"
+            android:paddingTop="5dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="5dp"
+            android:text="TextView"
+            android:textAlignment="textEnd"
+            app:layout_constraintBottom_toTopOf="@+id/rows"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/rows"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="12dp"
+            android:capitalize="words"
+            android:paddingTop="5dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="5dp"
+            android:text="TextView"
+            android:textAlignment="textEnd"
+            app:layout_constraintTop_toBottomOf="@+id/columns"
+            tools:layout_editor_absoluteX="0dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:cropToPadding="true"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        app:srcCompat="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/grid_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+</LinearLayout>

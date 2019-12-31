@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="60dp"
+    tools:context=".ui.activity.MainActivity">
+
+    <item
+        android:id="@+id/logo"
+        android:icon="@mipmap/ic_launcher_foreground"
+        android:title="Logo"
+        app:showAsAction="always"
+        tools:icon="@mipmap/ic_launcher_foreground" />
+    <item
+        android:id="@+id/app_name"
+        android:text="@string/app_name"
+        android:title="@string/app_name"
+        app:showAsAction="always" />
+
+    <item
+        android:title=""
+        app:showAsAction="always" />
+    <item
+        android:enabled="false"
+        android:title=""
+        android:visible="false"
+        app:showAsAction="always" />
+    s
+    <item
+        android:id="@+id/delete"
+        android:icon="@drawable/ic_delete_sweep_black_24dp"
+        android:title="delete"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/save_and_share"
+        android:layout_width="10dp"
+        android:icon="@drawable/ic_forward_black_24dp"
+        android:title="save_and_share"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/settings"
+        android:layout_width="wrap_content"
+        android:icon="@drawable/ic_more_vert_black_24dp"
+        android:title="settings"
+        android:onClick="onMoreOptionsSelect"
+        app:showAsAction="always" />
+
+</menu>
